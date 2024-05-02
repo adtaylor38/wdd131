@@ -17,6 +17,7 @@ a {
     font-family: "Jersey 25";
     font-size: larger;
     text-align: center;
+
 }
 
 nav {
@@ -24,6 +25,9 @@ nav {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-content: center;
     text-align: center;
+    justify-content: center;
+
+
 }
 
 header {
@@ -36,10 +40,12 @@ header {
 nav a {
     font-size: 25px;
     color: white;
+    display: flex;
+    flex: 1 1 100%;
 }
 
 a:hover {
-    font-weight: 600;
+    font-weight: 800;
     font-stretch: expanded;
     color: black;
 }
@@ -77,6 +83,7 @@ body {
     text-align: center;
     outline: 2px solid black;
 
+
 }
 
 .about_me {
@@ -94,4 +101,36 @@ body {
 #about_me {
 
     grid-column: 1/5;
+}
+
+footer {
+    background: #EF5B5B;
+    padding: 1px;
+}
+
+li {
+
+    font-size: larger;
+}
+
+a {
+    color: white;
+}
+
+#modesto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.modesto_pic {
+    grid-column: 1/2;
+    padding-left: 20px;
+}
+
+.about_modesto {
+    text-align: center;
+    font-size: x-large;
+    grid-column: 2/4;
+    padding: 15px;
 }
