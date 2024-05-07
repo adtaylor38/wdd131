@@ -12,6 +12,10 @@ h3 {
 
 }
 
+main {
+    max-width: 100%;
+}
+
 p,
 a {
     font-family: "Jersey 25";
